@@ -5,6 +5,7 @@
 }
 body{
     background-color: black;
+    font-family:'Times New Roman', Times, serif;
 }
 
 
@@ -14,7 +15,7 @@ body{
     /* border: 2px solid azure; */
     background-color: rgb(37, 52, 59);
     width:300px;
-    margin:150px auto;
+    margin:125px auto;
     height:300px;
     border-radius: 25px;
 
@@ -22,6 +23,7 @@ body{
 
 h2{ color: white;
     padding:5px 10px;
+    background-color: aqua;
 }
 
 p{  
@@ -31,6 +33,7 @@ p{
 }
 
 .lists{
+    padding-top:10px;
     color: white;
     display: flex;
     list-style: none;
@@ -47,13 +50,21 @@ p{
     border-radius:50%;
 }
 
+
 button{
-    /* width: 100px; */
+    font-family: inherit;
+    width: 200px;
+    cursor: pointer;
     display: block;
-    margin: auto;
+    margin: 25px auto;
     padding:5px 15px;
     border-radius: 50px;
     border: none;
     background-color: orange;
     color: white;
 }
+li:hover{
+    cursor: pointer;
+    background-color: rgba(203, 184, 184, 0.728);
+}
+

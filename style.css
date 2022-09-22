@@ -9,8 +9,10 @@ body{
 
 
 .container{
+
     padding: 20px;
-    border: 2px solid black;
+    /* border: 2px solid azure; */
+    background-color: rgb(37, 52, 59);
     width:300px;
     margin:150px auto;
     height:300px;
@@ -23,7 +25,7 @@ h2{ color: white;
 }
 
 p{  
-    color:beige;
+    color: rgb(124, 132, 135);
     padding:0 10px;
     font-size: 15px;
 }
@@ -33,15 +35,25 @@ p{
     display: flex;
     list-style: none;
     justify-content: center;
+    
 }
 
 .lists-items{
-
+    text-align: center;
+    margin: 5px;
+    width:40px;
     padding: 10px;
+    border:2px solid white;
+    border-radius:50%;
 }
 
 button{
+    /* width: 100px; */
     display: block;
     margin: auto;
     padding:5px 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: orange;
+    color: white;
 }
